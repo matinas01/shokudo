@@ -70,7 +70,9 @@
 
 .msjk-table-body>table>thead>tr{
     border-bottom: 0.5px solid #00000026;
-    border-top: 0.5px solid #00000026
+    border-top: 0.5px solid #00000026;
+    background-color: #F9F9F9;
+    
 }
 
 .msjk-table-body>table>thead>tr>th{
@@ -82,7 +84,7 @@
     text-align: left;
     text-transform: uppercase;
     color: #171C26;
-    padding: 20px 18px !important; 
+    padding: 10px 18px !important; 
 }
 
 .msjk-customize-table td{
@@ -94,11 +96,10 @@
     font-family: "Inter", sans-serif ;
     font-size: 12px ;
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.02em;
+    line-height: 1.6;
     text-align: left;
     color: #171C26; 
-    padding: 22px 20px !important; 
+    padding: 10px 20px !important;
 }
 
 .bold-txt-msjk{
@@ -201,6 +202,18 @@
 
 .msjk-footer-contents p{
     margin-bottom: 0px !important;
+}
+
+.msjk-name{
+    font-weight: 500 !important;
+}
+
+.msjk-table-body .msjk-customize-table tbody tr:nth-of-type(2n) {
+    background-color: #F9F9F9F9 !important; 
+}
+
+.msjk-table-body .msjk-customize-table tbody tr:nth-of-type(odd) {
+    background-color: none !important; 
 }
 
 @media screen and (max-width: 1170px) {
