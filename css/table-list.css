@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Inter", sans-serif;
+}
+
+/* table list  page */
+
+.msjk-table-body{
+    width: 100%;
+    border-radius: 8px ;
+    border: 0.5px solid #00000033 !important;
+    background-color: #ffffff;
+    /* padding: 14px 0px 1px 2px ; */
+
+}
+
+.msjk-table-list-listing{
+    max-width: 1000px;
+}
+
+.msjk-customize-table{
+    /* max-width: 1000px; */
+    /* width: 100%; */
+    height: auto;
+    padding: 20px;
+}
+
+.table-ul{
+    padding: 0px !important;
+    display: flex;
+    /* border-bottom: 0.5px solid #00000026; */
+    margin: 0px !important;
+}
+
+.table-ul>li{
+    list-style-type: none !important;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 24px 5px 24px 12px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.table-ul li {
+    position: relative;
+}
+
+.table-ul li.dispute-li-active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 16px; 
+    width: 100%;
+    height: 1px;
+    background-color: #000000; 
+}
+
+
+.msjk-table-body>table{
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+
+.msjk-table-body>table>thead>tr{
+    border-bottom: 0.5px solid #00000026;
+    border-top: 0.5px solid #00000026
+}
+
+.msjk-table-body>table>thead>tr>th{
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #171C26;
+    padding: 20px 18px !important; 
+}
+
+.msjk-customize-table td{
+    border: none;
+}
+
+
+.msjk-table-body>table>tbody>tr>td{
+    font-family: "Inter", sans-serif ;
+    font-size: 12px ;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #171C26; 
+    padding: 22px 20px !important; 
+}
+
+.bold-txt-msjk{
+    font-weight: 500;
+}
+
+.msjk-table-body>table>tfoot>tr{
+    background-color: #F4F7FCBF;
+
+}
+
+.msjk-footer-contents{
+    font-family: "Inter", sans-serif ;
+    font-size: 12px ;
+    font-weight: 500;
+    line-height: 1;
+    text-align: left;
+    color:#687182; 
+}
+
+.msjk-row-per-page-block select{
+    border: none !important;
+    color: #868FA0 !important;
+    font-family: "Inter", sans-serif ;
+}
+
+.msjk-row-per-page-block select option{
+    color: #000000 !important;
+    font-family: "Inter", sans-serif ;
+}
+
+.msjk-before-row-per-page{
+    gap: 16px;
+}
+
+.msjk-after-row-per-page nav{
+    padding-top: 15px;
+}
+
+.msjk-after-row-per-page nav ul li a{
+    border: 1.5px solid #464F603D;
+    padding: 2px 6px 4px 6px !important;
+    border-radius: 6px;
+    color: #868FA0;
+}
+
+.msjk-after-row-per-page nav ul li {
+    font-family: "Inter", sans-serif ;
+}
+
+.customize-page-item{
+    margin-top: 4px;
+    padding: 0px 10px;
+    color: #687182;
+}
+
+.customize-page-item>span{
+    font-family: "Inter", sans-serif ;
+    color: #000000;
+}
+
+
+.msjk-action-image-container{
+    width: 34px;
+    height: 34px;
+}
+
+.msjk-action-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color:#E9EEEE;
+    border-radius: 50%;
+}
+
+.msjk-action-image img{
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.msjk-footer-pagination{
+    gap: 20px;
+}
+
+.msjk-row-per-table select{
+    border: unset !important;
+    background-color: transparent !important;
+}
+
+.msjk-action-container{
+    gap: 32px;
+}
+
+.msjk-table-footer-container{
+    max-width: 1000px;
+    padding: 0px 10px;
+    background-color: #F9F9F9F9;
+    ;
+}
+
+.msjk-footer-contents p{
+    margin-bottom: 0px !important;
+}
+
+@media screen and (max-width: 1170px) {
+
+    .msjk-dispute-block-container{
+        padding: 40px 50px 80px 50px !important;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+
+    .msjk-dispute-block-container{
+        padding: 40px 30px 80px 30px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .msjk-dispute-block-container{
+        padding: 40px 20px 80px 20px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .msjk-dispute-block-container{
+        padding: 20px 20px 50px 20px !important;
+    }
+}
+
+/* end table list  page */
