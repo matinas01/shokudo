@@ -1,4 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
+  var toggleIcons = document.querySelectorAll(".toggle-icon");
+  toggleIcons.forEach(function(icon) {
+      icon.addEventListener("click", function() {
+          var subMenu = this.nextElementSibling;
+
+          if (subMenu.style.display === "none" || subMenu.style.display === "") {
+              subMenu.style.display = "block";
+          } else {
+              subMenu.style.display = "none";
+          }
+      });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
     var hamburger = document.querySelector(".msjk-hamburger");
     var navContainer = document.querySelector(".navcontainer");
 
@@ -32,4 +47,20 @@ $(document).ready(function(){
         $(this).find('.subclass-msjk').slideToggle();
         
     });
+});
+
+$(document).ready(function(){
+  $('.title-msjk a').on('click', function(event) {
+      event.preventDefault();
+
+      $('.title-msjk a').removeClass('msjk-active-a');
+
+      $(this).addClass('msjk-active-a');
+  });
+});
+
+$(document).ready(function() {
+  $('#msjk-toggle-button').on('click', function() {
+      $('.msjk-message-container').slideToggle();
+  });
 });
