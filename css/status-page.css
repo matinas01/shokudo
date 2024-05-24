@@ -60,7 +60,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
-    text-align: left;
     color: #000000;
     text-transform: capitalize;
     width: 100%;
@@ -92,8 +91,67 @@
     padding-top: 32px;
 }
 
+.select-color-section{
+    padding-top: 20px;
+}
+
+.select-color-section h3{
+    margin: 0px  !important;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 12px;
+}
+
+.msjk-colors{
+    gap: 40px;
+}
+
+.msjk-single-color{
+    gap: 10px;
+}
+
+.msjk-colorpicker input{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.msjk-color-status{
+    margin-bottom: 0px !important;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2; 
+}
+
+.msjk-available-checkbox{
+    padding-top: 26px;
+    gap:10px ;
+}
+
+.msjk-available-checkbox input{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.msjk-available-checkbox p{
+    margin-bottom: 0px !important;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    
+}
+
+
+
+
+
 .msjk-f1-button-div {
-    padding: 20px 0px 0px !important;
+    padding: 30px 0px 0px !important;
 }
 
 .msjk-f1-button-div input {
@@ -114,13 +172,6 @@
  .msjk-table-create-title{
     padding-bottom: 25px !important;
  }
-
-
-
-
-
-
-
 
 @media screen and (max-width: 992px) {
     .msjk-status-firstblock{
