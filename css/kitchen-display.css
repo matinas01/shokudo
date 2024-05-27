@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Inter", sans-serif;
+}
+
+.msjk-kitchen-display-whole-container{
+    /* max-width: 1440px; */
+    margin: auto;
+    padding: 24px 60px 24px 40px !important ;
+}
+
+.msjk-top-heading{
+    font-family: "Inter", sans-serif; 
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 16px !important;
+    padding: 0px 12px;
+}
+
+.msjk-kitchen-display-row .msjk-single-table-block{
+    padding: unset !important;
+}
+
+.msjk-kitchen-display-row .msjk-custom-table-block-para{
+    background-color: #ADACAC;
+    padding: 4px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.msjk-kitchen-display-row .msjk-single-table-block-para p{
+    margin-bottom: unset !important;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    color: #ffffff;
+    opacity: 0.85;
+    line-height: 1.2;
+}
+
+.msjk-kitchen-display-row .msjk-single-table-block-para p span{
+    font-size: 16px;
+    font-weight: 800;
+    padding-left: 4px;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+.msjk-kitchen-display-row .msjk-status-timer{
+    padding: 16px 20px !important;
+}
+
+.msjk-kitchen-display-row .msjk-timer{
+    font-size: 13px !important;
+}
+
+.msjk-before-status{
+    padding: 10px 10px 10px;
+}
+
+.msjk-kitchen-display-row .msjk-single-table-block{
+    min-height: 114px !important;
+}
+
+.msjk-kitchen-display-col .msjk-message{
+    background-color:#D2D2D2 !important;
+    margin-bottom: 8px !important;
+    padding: 10px 20px 20px;
+}
+
+
+@media screen and (max-width:1366px) {
+    .msjk-kitchen-display-whole-container{
+        /* max-width: 1440px; */
+        margin: auto;
+        padding: 24px 20px 24px 10px !important ;
+    }
+}
