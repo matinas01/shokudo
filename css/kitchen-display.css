@@ -73,11 +73,15 @@
     padding: 10px 20px 20px;
 }
 
+.msjk-kitchen-message-container{
+    max-height: 100%;
+    overflow-y: scroll;
+}
 
 @media screen and (max-width:1366px) {
     .msjk-kitchen-display-whole-container{
         /* max-width: 1440px; */
         margin: auto;
-        padding: 24px 20px 24px 10px !important ;
+        padding: 24px 20px 0px 10px !important ;
     }
 }
